@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D7D7"
+    tools:context=".UserDataView">
+
+    <Button
+        android:id="@+id/btn_volver_dash1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Volver"
+        android:backgroundTint="#0295F5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tag_datos_usuario"
+        android:layout_width="322dp"
+        android:layout_height="71dp"
+        android:text="Datos Usuario"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="131dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrar_id_usuario"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="253dp"
+        android:layout_height="48dp"
+        android:ems="15"
+        android:hint="Identificacion"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="252dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/input_id_buscar"
+        android:layout_width="214dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Identificacion"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/btn_buscar_usuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mostrar_nombre_usuario"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="252dp"
+        android:layout_height="52dp"
+        android:ems="15"
+        android:hint="Nombre"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="310dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrar_apellido"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="252dp"
+        android:layout_height="52dp"
+        android:ems="15"
+        android:hint="Apellido"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="370dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrar_telefono"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="252dp"
+        android:layout_height="52dp"
+        android:ems="15"
+        android:hint="Teléfono"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="420dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mostrar_correo"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="252dp"
+        android:layout_height="52dp"
+        android:ems="15"
+        android:hint="Correo"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="470dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/input_password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="252dp"
+        android:layout_height="52dp"
+        android:ems="15"
+        android:hint="Contraseña"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="510dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_buscar_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:backgroundTint="#0295F5"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="634dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
